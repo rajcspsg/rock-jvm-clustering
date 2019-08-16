@@ -19,10 +19,8 @@ object CommonSettings {
     parallelExecution in ThisBuild := false,
     fork in Test := false,
     test in assembly := {},
-    libraryDependencies ++= Dependencies.dependencies,
-    addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.9.7"),
-    addCompilerPlugin("org.scalamacros" % "paradise" % "2.1.1" cross CrossVersion.full)
-  ) 
+    libraryDependencies ++= Dependencies.dependencies
+  )
 
 
   lazy val configure: Project => Project = (proj: Project) => {

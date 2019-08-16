@@ -1,6 +1,8 @@
-import akka.actor.{Actor, ActorLogging, Identify}
-import akka.pattern.ask
+package actors
+
+import akka.actor.{Actor, ActorLogging}
 import akka.util.Timeout
+
 import scala.concurrent.duration._
 
 class SimpleActor extends  Actor with ActorLogging {

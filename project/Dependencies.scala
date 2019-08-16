@@ -2,13 +2,11 @@ import sbt._
 
 object Version {
   val logbackVer        = "1.2.3"
-  val scalaVer          = "2.12.6"
-  val scalaTestVer      = "3.0.4"
+  val scalaVer          = "2.13.0"
+  val scalaTestVer      = "3.0.8"
   lazy val akkaVersion = "2.5.24"
   lazy val protobufVersion = "3.6.1"
 }
-
-
 
 object Dependencies {
   val dependencies = Seq(
